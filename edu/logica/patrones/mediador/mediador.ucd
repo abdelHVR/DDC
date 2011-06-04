@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="1119,668" id="morphserverNSolutionsDDC3875" metadata="nsuml-1.4" initialized="true" showWireOptions="1">
+  <children xsi:type="editmodel:InterfaceEditModel" location="21,21" size="103,43" stereotype="interface" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.0" id="morphserverNSolutionsDDC3876" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="506,16" size="113,99" stereotype="interface" targetConnections="//@children.2/@sourceConnections.0" id="morphserverNSolutionsDDC3879" runTimeClassModel="morphserverNSolutionsDDC4016;morphserverNSolutionsDDC4014">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,36">
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4016"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4014"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="morphserverNSolutionsDDC4001" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,2" id="morphserverNSolutionsDDC4002" attachSource="true" roleLabel="//@children.1/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="morphserverNSolutionsDDC4003" navigable="true" flags="1" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="54,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="314,164" size="211,607" targetConnections="//@children.4/@sourceConnections.1" id="morphserverNSolutionsDDC30" runTimeClassModel="morphserverNSolutionsDDC4098;morphserverNSolutionsDDC4118;morphserverNSolutionsDDC3890;morphserverNSolutionsDDC4141;morphserverNSolutionsDDC4138;morphserverNSolutionsDDC3899;morphserverNSolutionsDDC513;morphserverNSolutionsDDC4121;morphserverNSolutionsDDC4512;morphserverNSolutionsDDC4106;morphserverNSolutionsDDC4130;morphserverNSolutionsDDC874;morphserverNSolutionsDDC861;morphserverNSolutionsDDC4127;morphserverNSolutionsDDC865;morphserverNSolutionsDDC868;morphserverNSolutionsDDC4538;morphserverNSolutionsDDC4132;morphserverNSolutionsDDC4087;morphserverNSolutionsDDC4103;morphserverNSolutionsDDC4124;morphserverNSolutionsDDC1120;morphserverNSolutionsDDC4112;morphserverNSolutionsDDC4109;morphserverNSolutionsDDC4511;morphserverNSolutionsDDC3892;morphserverNSolutionsDDC4088;morphserverNSolutionsDDC3891;morphserverNSolutionsDDC3889;morphserverNSolutionsDDC4115;morphserverNSolutionsDDC871;morphserverNSolutionsDDC3902;morphserverNSolutionsDDC4135;morphserverNSolutionsDDC3905;morphserverNSolutionsDDC4547">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,90">
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC3889"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC3891"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC3890"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC3892"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC4512"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,468">
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC513"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC861"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3902"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC871"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC874"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3905"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC865"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC868"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3899"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4132"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4130"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4141"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4138"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4106"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4135"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4538"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4103"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4112"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4547"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4124"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4115"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4109"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4121"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4098"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4118"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4127"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0" id="morphserverNSolutionsDDC3885" connectionRouterKind="GeneralizationManhattan" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,98" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="662,183" size="235,229" targetConnections="//@children.4/@sourceConnections.2" id="morphserverNSolutionsDDC15" runTimeClassModel="morphserverNSolutionsDDC4326;morphserverNSolutionsDDC4328;morphserverNSolutionsDDC3955;morphserverNSolutionsDDC3947;morphserverNSolutionsDDC492;morphserverNSolutionsDDC3964;morphserverNSolutionsDDC482;morphserverNSolutionsDDC3958;morphserverNSolutionsDDC4305;morphserverNSolutionsDDC4320;morphserverNSolutionsDDC96;morphserverNSolutionsDDC3952;morphserverNSolutionsDDC3945">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="morphserverNSolutionsDDC3945"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,162">
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC492"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3952"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3955"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3958"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC3964"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC482"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4326"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4328"/>
+      <children xsi:type="editmodel:MethodEditModel" id="morphserverNSolutionsDDC4320"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="morphserverNSolutionsDDC3928" connectionRouterKind="Manual" source="//@children.3" target="//@children.2/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-24,48"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="-4,163" size="160,29" id="morphserverNSolutionsDDC3882" runTimeClassModel="morphserverNSolutionsDDC4050;morphserverNSolutionsDDC4034">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="morphserverNSolutionsDDC3884" connectionRouterKind="Manual" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="morphserverNSolutionsDDC4021" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,4" id="morphserverNSolutionsDDC4022" attachSource="true" roleLabel="//@children.4/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="morphserverNSolutionsDDC4023" navigable="true" flags="2" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="42,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="morphserverNSolutionsDDC4037" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.1" label="//@children.4/@sourceConnections.2/@children.2" sourceEnd="//@children.4/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,11" id="morphserverNSolutionsDDC4038" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" id="morphserverNSolutionsDDC4039" navigable="true" flags="2" multiplicityLabel="//@children.4/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.2/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="60,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>
